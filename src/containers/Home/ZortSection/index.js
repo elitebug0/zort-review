@@ -12,7 +12,7 @@ const ZortSection = () => {
             <p>You’re challenging fellow users, not a big company or exchange</p>
           </div>
           <div className='zort-section-content'>
-            <img src="/images/zortbg.svg" alt="zort" className="img-fluid w-100 zort-bg-img" />
+            <img src="/images/Zort-bg.svg" alt="zort" className="img-fluid w-100 zort-bg-img" />
             <div className='zort-section-contentContainer'>
             <div className='zort-section-contenttext'>
               <img src="/images/icon1.svg" alt="zort" />
