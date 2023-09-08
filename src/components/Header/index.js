@@ -12,7 +12,7 @@ const Header = () => {
         <Navbar key={expand} expand={expand} className=" mb-3">
           <Container >
             <Navbar.Brand href="/">
-              <img src="/images/logo.svg" alt="logo" />
+              <img src="/images/logo.png" alt="logo" />
             </Navbar.Brand>
             <div className=" header-button mobile-button"  >
               <Button style={{
