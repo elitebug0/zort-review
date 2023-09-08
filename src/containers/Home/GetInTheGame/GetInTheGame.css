@@ -1,0 +1,63 @@
+.get-in-the-game-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  margin-top: 50px;
+}
+.get-in-the-game-section-left {
+  max-width: 383px;
+  padding: 50px 62px;
+  width: 100%;
+  background-image: url("../../../assets/img/bearBg.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.get-in-the-game-section-right {
+  max-width: 383px;
+  padding: 50px 62px;
+  width: 100%;
+  background-image: url("../../../assets/img/bullBg.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.get-in-the-game-header {
+  text-align: center;
+}
+.get-in-the-game-header h2 {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 80px;
+  color: #fff;
+}
+.get-in-the-game-header p {
+  color: #8f95a2;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.get-in-the-game-section-left h4 {
+  color: #d7314f;
+}
+.get-in-the-game-section-left .image-section p {
+  color: #d7314f;
+}
+.get-in-the-game-section-right h4 {
+  color: #99cd07;
+}
+.get-in-the-game-section-right .image-section p {
+  color: #99cd07;
+}
+
+.get-in-the-game-section {
+  background-image: url("../../../assets/img/gameBg.png");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 40%;
+  background-size: cover;
+  padding: 250px 0;
+}

@@ -1,0 +1,94 @@
+
+.get-in-the-game-section-card-header {
+  text-align: center;
+}
+.get-in-the-game-section-card-header h4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+  letter-spacing: -0.4px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.get-in-the-game-section-card-header img{
+  height: 100px;
+}
+.get-in-the-game-section-card ul {
+  list-style: none;
+  padding: 0;
+}
+.get-in-the-game-section-card ul li {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.image-section {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.price-section p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  color: #fff;
+  margin: 0;
+}
+.image-section p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  margin: 0;
+}
+.get-in-the-game-section-card button{
+    background: transparent;
+    border: 1.4px solid  #6FF3F3;
+    padding: 18px 40px;
+    max-width: 263px;
+    margin: 0 auto;
+    border-radius: 100px;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+@media screen and (max-width: 991px) {
+  .get-in-the-game-section-left {
+    background-size: cover;
+    border-radius: 30px;
+  }
+  .get-in-the-game-section-right{
+    background-size: cover;
+    border-radius: 30px;
+  }
+  .get-in-the-game-header h2 {
+    font-size: 56px;
+    line-height: 56px;
+  }
+  .get-in-the-game-header p{
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .get-in-the-game-section{
+    padding: 140px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .get-in-the-game-container{
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  .get-in-the-game-header h2 {
+    font-size: 40px;
+  }
+  .get-in-the-game-header p{
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

@@ -1,0 +1,60 @@
+.join-zort-container {
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.join-zort-container h2 {
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 80px;
+  color: #fff;
+}
+.join-zort-section {
+  margin-top: 160px;
+}
+.join-zort-container p {
+  text-align: center;
+  color: #8f95a2;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 470px;
+  margin: 0 auto;
+}
+.join-zort-container button {
+  border-radius: 100px;
+  border: 1.4px solid #6ff3f3;
+  background: #121315;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: #6ff3f3;
+  padding: 18px 40px;
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 991px) {
+  .join-zort-container h2 {
+    font-size: 56px;
+    line-height: 32px;
+  }
+  .join-zort-container p {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width:767px) {
+  .join-zort-container h2 {
+    font-size: 40px;
+  }
+  .join-zort-container p {
+    font-size: 20px;
+  }
+  .join-zort-container button{
+    font-size: 16px;
+    padding: 16px 30px;
+  }
+}

@@ -1,0 +1,96 @@
+.welcome-section {
+  margin-top: 150px;
+}
+.welcome-container {
+  position: relative;
+}
+
+.welcome-right p {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  color: #fff;
+  max-width: 466px;
+}
+
+.welcome-right p span {
+  color: #baceff;
+}
+.welcome-left {
+  position: absolute;
+  top: 14%;
+  left: -30px;
+}
+.welcome-right {
+  position: absolute;
+  top: 12%;
+  right: 6%;
+}
+
+@media screen and (max-width: 1400px) {
+  .welcome-right {
+    position: absolute;
+    top: 10%;
+    right: 2%;
+  }
+  .welcome-left {
+    position: absolute;
+    top: 16%;
+    left: -55px;
+  }
+  .welcome-left img {
+    max-width: 92%;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .welcome-right p {
+    font-size: 32px;
+    line-height: 34px;
+    max-width: 400px;
+  }
+  .welcome-right {
+    top: 11%;
+    right: 3%;
+  }
+  .welcome-left img {
+    max-width: 85%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .welcome-container .bgimage {
+    display: none;
+  }
+  .welcome-left img {
+    max-width: 100%;
+  }
+  .welcome-left {
+    position: relative;
+    top: -80px;
+    left: auto;
+  }
+  .welcome-right {
+    position: static;
+    margin-top: -60px;
+  }
+  .welcome-container {
+    background: #16181b;
+    border-radius: 20px;
+    padding: 0 60px 60px 60px;
+    text-align: center;
+  }
+  .welcome-right p {
+    margin: 0 auto;
+  }
+  
+}
+@media screen and (max-width: 991px) {
+  .welcome-container {
+    padding: 0 40px 40px 40px;
+
+  }
+  .welcome-right p{
+    font-size: 28px;
+  }
+}

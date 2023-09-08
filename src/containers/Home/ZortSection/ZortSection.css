@@ -1,0 +1,121 @@
+.zort-section {
+  margin-top: 200px;
+}
+.zort-container {
+  position: relative;
+}
+.zort-container h2 {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 80px;
+  color: #fff;
+}
+.zort-section-title {
+  text-align: center;
+}
+.zort-section-title p {
+  color: #8f95a2;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0 auto;
+  max-width: 470px;
+  margin-bottom: 50px;
+}
+.zort-section-contentContainer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 40px;
+}
+
+.zort-section-contentContainer img {
+  width: 90px;
+  height: 80px;
+  margin-bottom: 26px;
+}
+.zort-section-contenttext {
+  max-width: 320px;
+}
+.zort-section-contenttext p {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.22px;
+}
+.zort-section-contenttext p span {
+  color: #baceff;
+}
+.zort-section-content {
+  position: relative;
+}
+.zort-section-center {
+  position: relative;
+  top: 100px;
+}
+
+@media screen and (max-width: 1400px) {
+  .zort-section-center {
+    top: 65px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .zort-section-contentContainer img {
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  .zort-section-contenttext {
+    max-width: 270px;
+  }
+  .zort-section-contenttext p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .zort-bg-img {
+    display: none;
+  }
+  .zort-section-contentContainer {
+    flex-direction: column;
+    position: static;
+  }
+  .zort-section-contenttext {
+    max-width: 480px;
+    margin: 0 auto;
+    background: #16181b;
+    padding: 50px 62px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+  }
+  .zort-section-center {
+    top: auto;
+  }
+  .zort-section {
+    margin-top: 160px;
+  }
+  .zort-container h2 {
+    font-size: 56px;
+  }
+  .zort-section-title p{
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .zort-container h2 {
+    font-size: 40px;
+  }
+  .zort-section-title p{
+    font-size: 20px;
+  }
+}

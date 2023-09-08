@@ -1,0 +1,25 @@
+.how-work-section-card {
+  background: #17181b;
+  max-width: 570px;
+  width: 100%;
+  border-radius: 20px;
+  text-align: center;
+  padding: 80px 75px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.how-work-section-card p {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  color: #a7adb4;
+}
+.how-work-section-card h3 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  color: #fff;
+  margin-top: 60px;
+}

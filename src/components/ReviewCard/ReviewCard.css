@@ -1,0 +1,25 @@
+.review-card {
+  background-color: #161719;
+  padding: 40px 50px;
+  max-width: 370px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.review-card p {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  color: #a7adb4;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+.review-card h3 {
+  color: #a7adb4;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 0;
+}

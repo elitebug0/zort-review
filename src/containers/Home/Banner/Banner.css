@@ -1,0 +1,267 @@
+.banner {
+  margin-top: 40px;
+}
+.banner-content h1 {
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 96px;
+  color: #fff;
+  text-align: center;
+}
+.banner-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.banner-image {
+  text-align: center;
+  position: relative;
+  max-width: 827px;
+  margin: 0 auto;
+  margin-top: -115px;
+}
+.banner-image .mobile-banner {
+display: none;
+}
+.banner-subtitle p {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  color: #fff;
+  margin: 0 auto;
+  max-width: 470px;
+}
+.banner-subtitle {
+  text-align: center;
+  margin-top: -170px;
+  position: relative;
+  z-index: 9;
+}
+.banner-button {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  width: 100%;
+  margin-top: 24px;
+}
+.banner-button button {
+  border: 1.4px solid;
+  border-radius: 100px;
+  background: transparent;
+  padding: 18px 40px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  height: 56px;
+}
+.banner-section {
+  background-image: url("../../../assets/img/bannerbg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 260%;
+}
+
+.banner-box1 p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  color: #fff;
+}
+.banner-box1 button {
+  height: 54px;
+  width: 120px;
+  background-color: transparent !important;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+}
+.banner-box1 .up-btn {
+  background-image: url("../../../assets/img/upbtnBg.svg");
+}
+.banner-box1 .down-btn {
+  background-image: url("../../../assets/img/downbtnBg.svg");
+  margin-left: 14px;
+}
+.banner-box1 {
+  position: absolute;
+  top: 53%;
+  left: 22%;
+}
+.banner-box2 h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 0;
+}
+.banner-box2 p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  color: #b7c1ff;
+  margin: 0;
+}
+
+.banner-box2 {
+  position: absolute;
+  top: 32%;
+  left: 48%;
+}
+
+.banner-box3 h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 0;
+}
+.banner-box3 h2 span {
+  font-size: 24px;
+}
+.banner-box3 p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  color: #b7c1ff;
+  margin: 0;
+}
+
+.banner-box3 {
+  position: absolute;
+  top: 54%;
+  right: 21%;
+}
+.banner-box1 button:hover::before {
+  content: "";
+  position: absolute;
+  background-image: url("../../../assets/img/hovericon.svg");
+  height: 50px;
+  width: 50px;
+  transform: rotate(-100deg);
+  right: -15px;
+  top: 20px;
+}
+@media screen and (max-width: 991px) {
+  .banner-content h1 {
+    font-size: 64px;
+    line-height: 72px;
+  }
+  .banner-box1 {
+    top: 51%;
+    left: 18%;
+  }
+  .banner-box2{
+    left: 46%;
+  }
+  .banner-box3{
+    right: 19.2%;
+  }
+  .banner-image{
+    margin-top: -50px;
+  }
+  .banner-subtitle{
+    margin-top: -135px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner-box1 button:hover::before {
+   
+    background-image: url("../../../assets/img/hovermobileicon.svg");
+    background-repeat: no-repeat;
+    height: 30px;
+    top: 0;
+
+  }
+  .banner-button button{
+    padding: 16px 30px;
+    font-size: 16px;
+  }
+  .banner-content h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .banner-box1 {
+    top: 52%;
+    left: 23%;
+  }
+
+  .banner-box2{
+    left: 49%;
+  }
+  .banner-box3{
+    right: 22%;
+  }
+  .banner-image{
+    margin-top: -50px;
+  }
+  .banner-subtitle{
+    margin-top: -60px;
+  }
+  .banner-box2 h2{
+    font-size: 17px;
+    line-height: 18px;
+  }
+  .banner-box2 p{
+    font-size: 7px;
+    line-height: 18px;
+  }
+  .banner-box1 p{
+    font-size: 9px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+  .banner-box1 button{
+    width: 65px;
+    height: 29px;
+    line-height: 10px;
+    font-size: 9px;
+    border-radius: 40px;
+  }
+  .banner-box3 p{
+    font-size: 7px;
+    line-height: 18px;
+  }
+  .banner-box3 h2{
+    font-size: 17px;
+    line-height: 18px;
+  }
+  .banner-box3 h2 span{
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .banner-image {
+       width: 360px;
+  }
+  .banner-image .mobile-banner {
+    display: block;
+    }
+    .desktop-banner{
+      display: none;
+    }
+  .banner-box3 {
+    right: 13%;
+    top: 58%;
+  }
+  .banner-box1 {
+    top: 55%;
+    left: 13%;
+  }
+}

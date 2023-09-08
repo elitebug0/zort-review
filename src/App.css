@@ -1,0 +1,12 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700");
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #121315;
+  font-family: "DM Sans", sans-serif;
+  overflow-x: hidden;
+}
